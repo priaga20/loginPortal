@@ -16,9 +16,9 @@ Path=os.getcwd()+"/DataFiles/"    #for storing directopry of data files
 
 def ReadAll(file_name):         # to read a file 
     try:
-        fr=open(Path+file_name,"r")
+        fr=open(Path+file_name,"r") #to open a file
         print fr.read()
-        fr.close()
+        fr.close()  #to close a file
         print "="*FormattingLength
     except IOError:
         print "No such file exists"

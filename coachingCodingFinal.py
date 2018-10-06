@@ -8,7 +8,7 @@ Submitted to: Ms Meena Dogra
 import pickle
 import os
 
-# global variable
+# global variables
 FormattingLength=80                       #for uniform modifiable formatting of output
 Path=os.getcwd()+"/DataFiles/"    #for storing directopry of data files
 
